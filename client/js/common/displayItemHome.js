@@ -1,22 +1,31 @@
-import { getJsonData } from './getJsonData.js';
+import { getJsonData } from "./getJsonData.js";
 
 const mainProduct = document.querySelectorAll(".products__wrapper");
 
-export const displayItemHome = () => getJsonData().then(datas => {
-  datas.map(data => {
-    let name = data.name;
-    let thumbnail = data.image.thumbnail;
-    let price = data.price;
-    let alt = data.image.alt;
-    let salePrice2 = data.salePrice === 0 ? price : data.salePrice;
-    let saleRatio = data.saleRatio * 100 !== 0 ? data.saleRatio * 100 + "%" : "";
-  
-    function templateMaking(thumbnail, alt, name, saleRatio, salePrice2, price) {
-      return `
+export const displayItemHome = () =>
+  getJsonData().then(datas => {
+    datas.map(data => {
+      let name = data.name;
+      let thumbnail = data.image.thumbnail;
+      let price = data.price;
+      let alt = data.image.alt;
+      let salePrice2 = data.salePrice === 0 ? price : data.salePrice;
+      let saleRatio =
+        data.saleRatio * 100 !== 0 ? data.saleRatio * 100 + "%" : "";
+
+      function templateMaking(
+        thumbnail,
+        alt,
+        name,
+        saleRatio,
+        salePrice2,
+        price,
+      ) {
+        return `
       <div class="swiper-slide product">
         <a href="./pages/productDetail.html" class="product__link">
           <div class="product__imgContainer">
-            <img class="product__img" src="../client/assets/${thumbnail}"
+            <img class="product__img" src="./assets/${thumbnail}"
               alt="${alt}"
             />
           </div>
@@ -43,21 +52,21 @@ export const displayItemHome = () => getJsonData().then(datas => {
     
         <button id="open" class="product__button" >
           <img
-            src="../client/assets/icons/Cart2.svg"
+            src="./assets/icons/Cart2.svg"
             alt="장바구니 이미지"
           />
         </button>
       </div>
       `;
-    }
-  
-    function insert(load, num) {
-      load[num].insertAdjacentHTML(
-        "beforeend",
-        templateMaking(thumbnail, alt, name, saleRatio, salePrice2, price),
-      );
-    }
-  
-    for (let i = 0; i < mainProduct.length; i++) insert(mainProduct, i);
-  })
-});
+      }
+
+      function insert(load, num) {
+        load[num].insertAdjacentHTML(
+          "beforeend",
+          templateMaking(thumbnail, alt, name, saleRatio, salePrice2, price),
+        );
+      }
+
+      for (let i = 0; i < mainProduct.length; i++) insert(mainProduct, i);
+    });
+  });
