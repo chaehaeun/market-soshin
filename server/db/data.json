@@ -169,6 +169,16 @@
       "phone": "01012341234",
       "gender": "woman",
       "birth": "19991231"
+    },
+    {
+      "uniqueID": 1685691965518,
+      "id": "chaechae",
+      "name": "채하은",
+      "password": "qwerasdf",
+      "email": "chaechae@naver.com",
+      "phone": "01000000000",
+      "gender": "unknown",
+      "birth": "20001111"
     }
   ]
 }

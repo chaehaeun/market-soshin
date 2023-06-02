@@ -204,12 +204,19 @@ URL : 🔗 https://market-soshin.vercel.app/
 
 ![프로](https://media.discordapp.net/attachments/619875492820025356/1113778489447940127/market-soshin.vercel.app_pages_productList.html.png?width=520&height=970)
 
+1. 비동기 통신으로 동적으로 제품 삽입
+
 </details>
 
 <details>
 <summary>Product Detail</summary>
 
-![메인](https://media.discordapp.net/attachments/619875492820025356/1113780434216685588/localhost_5500_pages_productDetail.html.png?width=182&height=968)
+![메인](https://cdn.discordapp.com/attachments/619875492820025356/1113780434216685588/localhost_5500_pages_productDetail.html.png)
+
+![](https://media.discordapp.net/attachments/619875492820025356/1114087770093273099/detail.gif?width=1012&height=970)
+
+1. 문의, 후기버튼 모달 구현
+2. 상품문의 아코디언 기능
 
 </details>
 
@@ -218,11 +225,40 @@ URL : 🔗 https://market-soshin.vercel.app/
 
 ![메인](https://media.discordapp.net/attachments/619875492820025356/1113780433906315354/localhost_5500_pages_register.html.png?width=624&height=970)
 
+![](https://media.discordapp.net/attachments/619875492820025356/1114088374865760256/register.gif?width=2160&height=852)
+
+1. 아이디, 이메일 중복 확인을 안 했을 시
+   ![](https://cdn.discordapp.com/attachments/619875492820025356/1114096411072528466/image.png)
+   ![](https://cdn.discordapp.com/attachments/619875492820025356/1114096525518327808/image.png)
+
+2. 이미 사용 중인 아이디일 시
+   ![](https://cdn.discordapp.com/attachments/619875492820025356/1114097658999615518/image.png)
+
+3. 필수약관 동의를 하지 않았을 시
+   ![](https://cdn.discordapp.com/attachments/619875492820025356/1114097198020448286/image.png)
+
+4. 필수 입력 칸을 비워놓고 submit 요청을 했을 시
+   ![](https://cdn.discordapp.com/attachments/619875492820025356/1114098107878215700/image.png)
+
 </details>
 
 <details>
 <summary>Login</summary>
 
 ![메인](https://media.discordapp.net/attachments/619875492820025356/1113780433574969394/localhost_5500_pages_login.html.png?width=1092&height=970)
+
+![](https://cdn.discordapp.com/attachments/619875492820025356/1114087842784747540/login.gif)
+
+1. 로그인 성공시 유저 uid를 로컬스토리지에 저장
+
+</details>
+
+<details>
+<summary>Cart</summary>
+
+![](https://cdn.discordapp.com/attachments/619875492820025356/1114092842793582682/localhost_5500_pages_cart.html.png)
+
+1. 장바구니 아코디언 기능
+2. 제품 수량 변경 기능
 
 </details>
