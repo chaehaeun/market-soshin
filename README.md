@@ -1,3 +1,5 @@
+![칼리](https://cdn.discordapp.com/attachments/619875492820025356/1113775287738576956/Rectangle_9.png)
+
 # <span id="top">✋🏻 MARKET-소신</span>
 
 [🔗 배포 URL](https://market-soshin.vercel.app/)
@@ -186,10 +188,41 @@ URL : 🔗 https://market-soshin.vercel.app/
 
 ## <span id="pages">6. 페이지 기능</span>
 
-### 1) 홈
+<details>
+<summary>Main</summary>
 
-### 2) 게시글
+![메인](https://cdn.discordapp.com/attachments/619875492820025356/1113778489745748048/market-soshin.vercel.app_index.html.png)
 
-### 3) 프로필
+![](https://cdn.discordapp.com/attachments/619875492820025356/1113783195318624256/swiper.gif)
 
-### 4) 판매 상품
+1. swiper에 비동기 통신을 이용하여 동적으로 제품 정보 삽입
+
+</details>
+
+<details>
+<summary>Product List</summary>
+
+![프로](https://media.discordapp.net/attachments/619875492820025356/1113778489447940127/market-soshin.vercel.app_pages_productList.html.png?width=520&height=970)
+
+</details>
+
+<details>
+<summary>Product Detail</summary>
+
+![메인](https://media.discordapp.net/attachments/619875492820025356/1113780434216685588/localhost_5500_pages_productDetail.html.png?width=182&height=968)
+
+</details>
+
+<details>
+<summary>Register</summary>
+
+![메인](https://media.discordapp.net/attachments/619875492820025356/1113780433906315354/localhost_5500_pages_register.html.png?width=624&height=970)
+
+</details>
+
+<details>
+<summary>Login</summary>
+
+![메인](https://media.discordapp.net/attachments/619875492820025356/1113780433574969394/localhost_5500_pages_login.html.png?width=1092&height=970)
+
+</details>
