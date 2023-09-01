@@ -51,11 +51,6 @@
   🔗[GitHub Project](https://github.com/likelion-lab15/market-soshin/projects)
 - 서비스 배포 환경 : Vercel
 
-### 배포 URL
-
-URL : 🔗 https://market-soshin.vercel.app/
-
-<p align="right"><a href="#top">(Top)</a></p>
 
 ## <span id="tree">3. 프로젝트 구조</span>
 
