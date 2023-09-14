@@ -2,8 +2,6 @@
 
 # <span id="top">✋🏻 MARKET-소신</span>
 
-[🔗 배포 URL](https://market-soshin.vercel.app/)
-
 ## 개요
 
 - 🦁 멋쟁이사자처럼 프론트엔드스쿨 4기 LAB 15에서 프로젝트를 진행한 <b> 소신있조 </b> 팀입니다.
